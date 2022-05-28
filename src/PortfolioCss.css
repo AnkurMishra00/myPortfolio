@@ -1,0 +1,49 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.App {
+  display: block;
+  overflow: auto;
+  width: 100%;
+  text-align: center;
+  background-color: #162b32;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 100vh;
+}
+.s-f {
+  margin-top: 40%;
+}
+.soft-skills,
+.tech-skills {
+  font-size: 22px;
+  text-align: center;
+  margin-top: 2%;
+}
+span {
+  font-size: 11px;
+  font-family: 400;
+  color: #d3e0ea;
+}
+a {
+  text-decoration: none;
+  color: #1687a7;
+}
+.a-l {
+  padding-bottom: 1%;
+}
+.mobile,
+.email {
+  padding: 2%;
+  margin: 10px;
+}
+.my-name {
+  letter-spacing: 0.6px;
+  padding: 2%;
+
+  line-height: 0.75;
+  margin: 10px 0;
+}
