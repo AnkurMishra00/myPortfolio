@@ -87,7 +87,7 @@ export default function Skills() {
   `;
 
   return (
-    <Skill>
+    <Skill id="skills">
       <TechSkills>
         <p>TECHNICAL SKILLS</p>
         <div>

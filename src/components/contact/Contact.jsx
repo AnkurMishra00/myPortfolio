@@ -89,7 +89,7 @@ export default function Contact() {
   `;
 
   return (
-    <Social>
+    <Social id="contact">
       <div>
         <div>
           <a href="https://github.com/AnkurMishra00" target="_blank">

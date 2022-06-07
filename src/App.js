@@ -5,27 +5,12 @@ import Contact from "./components/contact/Contact";
 import Projects from "./components/project/Projects";
 
 import Skills from "./components/Skills";
+import Portfolio from "./components/Portfolio";
 function App() {
   return (
     <>
-     
-      
       <div className="App">
-      <Navbar />
-        <Switch>
-          <Route path="/" exact>
-            <About />
-          </Route>
-          <Route path="/project">
-            <Projects />
-          </Route>
-          <Route path="/skills">
-            <Skills />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-        </Switch>
+        <Portfolio />
       </div>
     </>
   );

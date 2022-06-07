@@ -24,18 +24,10 @@ export default function Navbar() {
   `;
   return (
     <Nav>
-      <Link className="link" to="/">
-        About Me
-      </Link>
-      <Link className="link" to="/project">
-        Project
-      </Link>
-      <Link className="link" to="/skills">
-        Skills
-      </Link>
-      <Link className="link" to="/contact">
-        Contact
-      </Link>
+      <a className="link" href='#about'> About Me</a>
+      <a className="link" href='#project'>Project</a>
+      <a className="link" href='#skills'> Skills</a>
+      <a className="link" href='#contact'>Contact</a>
     </Nav>
   );
 }

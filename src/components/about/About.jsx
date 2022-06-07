@@ -18,9 +18,9 @@ export default function About() {
       box-shadow: 2px 2px 5px 1px #d8e3e7;
       transition: transform 0.4s;
       &:hover {
-        -ms-transform: scale(1.4);
-        -webkit-transform: scale(1.4);
-        transform: scale(1.4);
+        -ms-transform: scale(1.3);
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
       }
       @media (max-width: 768px) {
         margin: 16% auto;
@@ -58,7 +58,7 @@ export default function About() {
   `;
   return (
     <>
-      <AboutMe>
+      <AboutMe id="about">
         <img src="/images/portfoliopic.jpg"></img>
         <div>
           <h1 className="my-name">Ankur Mishra</h1>

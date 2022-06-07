@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { Link } from "react-router-dom";
 export default function Projects() {
   const ProjectContainer = styled.div`
     letter-spacing: 1px;
@@ -74,7 +73,7 @@ export default function Projects() {
   `;
 
   return (
-    <ProjectContainer>
+    <ProjectContainer id="project">
       <p> Projects which I worked on are...</p>
       <Project>
         <div>
