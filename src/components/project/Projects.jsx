@@ -94,11 +94,13 @@ export default function Projects() {
           >
             VISIT GIT REPO...
           </a>
+         
         </div>
         <img
           src="https://cdn.desertcart.com/cms-media/shop_women_perfume_online_777169b8dd.jpg?95355.45000000001"
           alt="home"
         ></img>
+         <a  href="https://desertcart-clone.vercel.app/"><h1>LIVE</h1></a>
       </Project>
       <Project>
         <div>
@@ -128,6 +130,8 @@ export default function Projects() {
           src="https://www.fitmeals.co.in/wp-content/uploads/2019/10/woman-1979272_1920.jpg"
           alt="home"
         ></img>
+        <a  href="https://keen-brown-9017f0.netlify.app/"><h1>LIVE</h1></a>
+        
       </Project>
     </ProjectContainer>
   );
