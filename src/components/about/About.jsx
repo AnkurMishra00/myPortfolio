@@ -2,7 +2,7 @@ import styled from "styled-components";
 import DownloadButton from "./Button";
 export default function About() {
   // height: 100%;
-                                                                          const AboutMe = styled.div`
+    const AboutMe = styled.div`
     display: flex;
     color: #f6f5f5;
     justify-content: space-evenly;
