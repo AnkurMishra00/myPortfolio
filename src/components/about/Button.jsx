@@ -22,7 +22,7 @@ const DownloadButton = (props) => {
   `;
   const downloadFile = () => {
     window.location.href =
-      "https://drive.google.com/file/d/1-1DlYYvLd1x9Z-SeLdkIaJH2wQDwx6-I/view?usp=sharing";
+      "https://dive.google.com/file/d/1-1DlYYvLd1x9Z-SeLdkIaJH2wQDwx6-I/view?usp=sharing";
   };
 
   return <Button onClick={downloadFile}>DOWNLOAD RESUME</Button>;
